@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content=""/>
+<title>Looking glass List</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<script>
+function windowHeight() {
+	var de = document.documentElement;
+	return self.innerHeight||(de && de.clientHeight)||document.body.clientHeight;
+}
+window.onload=window.onresize=function(){
+	var wh=windowHeight();
+	document.getElementById("xt-l
+eft").style.height = document.getElementById("xt-right").style.height = (wh-document.getElementById("xt-top").offsetHeight)+"px";
+}
+</script>
+
+<body>
+<!-- top -->
+<div id="xt-top">
+
+    <div class="xt-geren">
+        <div class="xt-exit"><span class="xt-span">Discovering obscure LG sites on the web (Shuying Zhuang, Jessie Hui Wang and Tianhao Wu)</span>
+            </div>
+    </div>
+</div>
+
+<!-- left -->
+<div class="xt-center">
+<div id="xt-left">
+
+    <div class="xt-menu">
+        <ul>
+            <li><a href="index.html" class="index"><em class="one"></em>The known automatable LG VPs</a></li>
+        </ul>
+        <ul>
+            <li><a href="obscure.html" class="obscure"><em class="two"></em>The obscure automatable LG VPs</a></li>
+        </ul>
+         <ul>
+            <li><a href="incremental.html" class="incremental"><em class="two"></em>New obscure automatable LG VPs (using time filtering properties of search engines)</a></li>
+        </ul>
+        <ul>
+            <li><a href="incrementalall.html" class="incrementalall"><em class="two"></em>New obscure automatable LG VPs (repeating the first iteration of the full set of experiments)</a></li>
+        </ul>
+    </div>
+</div>
+<!-- right -->
+<div id="xt-right">
+
+
+    <div class="xt-table" style="overflow-y:scroll;overflow-x:scroll;">
+        <table cellpadding="1" cellspacing="1" border="1" bgcolor="#dcdcdc" width="100%">
+<tr>
+<th>Index</th>
+<th>URL</th>
+<th>Measurement Commands</th>
+<th>The number of VPs</th>
+<th>VP</th>
+<th>The required input fields to issue ping measurement requests (name, type, value)</th>
+</tr>
+<tr><td>1</td><td>https://lg.namex.it/server/rs2-nap-v4</td><td>BGP(IXP)</td><td>1</td><td>rs2-nap-v4</td><td></td></tr><tr><td>2</td><td>https://lg.namex.it/server/rs1-nap-v4</td><td>BGP(IXP)</td><td>1</td><td>rs1-nap-v4</td><td></td></tr><tr><td>3</td><td>https://lg.namex.it/server/rs2-nap-v6</td><td>BGP(IXP)</td><td>1</td><td>rs2-nap-v6</td><td></td></tr><tr><td>4</td><td>https://lglass.namex.it/server/rs1-nap-v4</td><td>BGP(IXP)</td><td>1</td><td>rs1-nap-v4</td><td></td></tr><tr><td>5</td><td>https://lglass.namex.it/server/rs2-nap-v4</td><td>BGP(IXP)</td><td>1</td><td>rs2-nap-v4</td><td></td></tr><tr><td>6</td><td>https://lg.namex.it/server/rs1-nap-v6</td><td>BGP(IXP)</td><td>1</td><td>rs1-nap-v6</td><td></td></tr><tr><td>7</td><td>http://manager.bfd-ix.net/lg/rs1-lan1-ipv4</td><td>BGP</td><td>1</td><td>185.1.136.1</td><td></td></tr><tr><td>8</td><td>http://manager.bfd-ix.net/lg/rs2-lan1-ipv4</td><td>BGP</td><td>1</td><td>185.1.136.254</td><td></td></tr><tr><td>9</td><td>http://manager.bfd-ix.net/lg/112-lan1-ipv4</td><td>BGP</td><td>1</td><td>185.1.136.112</td><td></td></tr><tr><td>10</td><td>http://manager.bfd-ix.net/lg/rs1-lan1-ipv6</td><td>BGP</td><td>1</td><td>185.1.136.1</td><td></td></tr><tr><td>11</td><td>http://manager.bfd-ix.net/lg/rs2-lan1-ipv6</td><td>BGP</td><td>1</td><td>185.1.136.254</td><td></td></tr><tr><td>12</td><td>http://manager.bfd-ix.net/lg/112-lan1-ipv6</td><td>BGP</td><td>1</td><td>185.1.136.112</td><td></td></tr></table>
+     </div>
+     
