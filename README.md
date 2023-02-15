@@ -1,6 +1,6 @@
 # Discovering Obscure Looking Glass Sites on the Web to Facilitate Internet Measurement Research- Conext2021
 1. A full list of obscure and known automatable VPs, together with their IPs, is freely accessible from the website https://zhuangshuying18.github.io/discover_obscure_LG/ to provide convenience for researchers who want to conduct systematic or periodic on-demand measurements.
-2. The source code and automation tool of our submitted work can be publicly accessible from /obscure_LG. The detailed README file (which will be reorganized later) is also included.
+2. The source code and automation tool of our submitted work can be publicly accessible from /obscure_lg. The detailed README file (which will be reorganized later) is also included.
 # Please Cite Our Paper If You Use The LG List, Thank You!
 @inproceedings{10.1145/3485983.3494857,
 author = {Zhuang, Shuying and Wang, Jessie Hui and Wang, Jilong and Pan, Zujiang and Wu, Tianhao and Li, Fenghua and Zhang, Zhiyong},
